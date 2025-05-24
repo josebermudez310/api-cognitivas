@@ -1,0 +1,14 @@
+{
+  "name": "Jupyter Codespace",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install notebook jupyterlab",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "features": {},
+  "forwardPorts": [8888]
+}
